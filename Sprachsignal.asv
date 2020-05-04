@@ -1,0 +1,4 @@
+clear
+createTimeAxis(16e3,16e3*5);
+signal = load('sprachsignal_16kSps.mat',);
+plot(signal,t)
